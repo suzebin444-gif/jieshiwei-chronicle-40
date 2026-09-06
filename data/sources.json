@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "policy": "地方志与政府正式资料优先；链接是检索入口，关键事实仍需核对原文版本、页码与发布日期。",
+  "sources": [
+    {"id":"gazetteer-lufeng-county","title":"《陆丰县志》","type":"地方志","priority":1,"url":null,"note":"项目首要史实依据，引用时补充具体版本与页码"},
+    {"id":"gazetteer-lufeng-city","title":"《陆丰市志》","type":"地方志","priority":1,"url":null,"note":"当代建置与地方史的重要依据"},
+    {"id":"lufeng-cppcc-city-history","title":"明清两代碣石三次建城述略","type":"政协文史","priority":4,"url":"https://www.lfszx.gov.cn/history/720.html"},
+    {"id":"lufeng-cppcc-qianao","title":"碣石浅澳炮台","type":"政协文史","priority":4,"url":"https://www.lfszx.gov.cn/history/712.html"},
+    {"id":"lufeng-cppcc-xuanwu","title":"玄武山略述","type":"政协文史","priority":4,"url":"https://www.lfszx.gov.cn/history/210.html"},
+    {"id":"lufeng-cppcc-1911","title":"革命军光复碣石卫","type":"政协文史","priority":4,"url":"https://www.lfszx.gov.cn/history/846.html"},
+    {"id":"shanwei-red2","title":"红二师碣石作战指挥部旧址","type":"政府文旅","priority":3,"url":"https://www.shanwei.gov.cn/shanwei/swly/hsly/content/post_1114927.html"},
+    {"id":"lufeng-cppcc-japan","title":"日本军在陆丰的行动","type":"政协文史","priority":4,"url":"https://www.lfszx.gov.cn/history/470.html"},
+    {"id":"shanwei-division","title":"汕尾市建置沿革","type":"政府资料","priority":3,"url":"https://www.shanwei.gov.cn/shanwei/swsq/swfm/yzyg/mindex.html"},
+    {"id":"lufeng-jieshi-scenic","title":"碣石镇旅游景点","type":"政府文旅","priority":3,"url":"https://www.lufengshi.gov.cn/swlufeng/lylf/jqjd/content/mpost_967678.html"},
+    {"id":"shanwei-xuanwu-fair","title":"玄武山庙会省级非遗介绍","type":"政府非遗","priority":3,"url":"https://www.shanwei.gov.cn/shanwei/swly/yswh/content/post_1110188.html"},
+    {"id":"shanwei-straw-art","title":"碣石麦秆画省级非遗介绍","type":"政府非遗","priority":3,"url":"https://www.shanwei.gov.cn/slhwz/zjsw/content/post_1114900.html"},
+    {"id":"sasac-lufeng-nuclear","title":"中广核广东陆丰核电项目建设信息","type":"央企公开资料","priority":3,"url":"https://www.sasac.gov.cn/n2588025/n2588124/c32910356/content.html"},
+    {"id":"shanwei-ocean-engineering","title":"汕尾（陆丰）海洋工程基地发展","type":"政府资料","priority":3,"url":"https://www.shanwei.gov.cn/shanwei/zwgk/jcxx/zwdt/rdgz/content/post_893272.html"}
+  ]
+}

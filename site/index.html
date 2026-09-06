@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="碣石卫历史漫画前四十章时间线与图片档案">
+  <title>碣石卫 · 四十章历史长卷</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <p class="eyebrow">1384—2026 · 碣石海疆六百余年</p>
+    <h1>碣石卫 · 四十章历史长卷</h1>
+    <p class="intro">从明初建卫到当代向海图强，以地方志为经、人物与民生为纬，整理四十章、四百三十四页的历史漫画生产档案。</p>
+    <div class="metrics" id="metrics"></div>
+  </header>
+
+  <main>
+    <section class="controls" aria-label="筛选">
+      <label>时代<select id="eraFilter"><option value="">全部时代</option></select></label>
+      <label>搜索<input id="search" type="search" placeholder="章节、年代、人物或事件"></label>
+      <button id="reset" type="button">重置</button>
+    </section>
+
+    <section>
+      <div class="section-heading"><h2>时间线</h2><span id="resultCount"></span></div>
+      <div class="timeline" id="timeline"></div>
+    </section>
+
+    <section>
+      <div class="section-heading"><h2>已对应章页</h2><span>章页身份已恢复，文字仍需人工复核</span></div>
+      <div class="gallery" id="gallery"></div>
+    </section>
+
+    <section>
+      <div class="section-heading"><h2>待对应素材库</h2><span>已去重找回，不强行归入错误页码</span></div>
+      <div class="gallery" id="candidateGallery"></div>
+    </section>
+  </main>
+
+  <footer>本画廊由仓库中的结构化数据自动生成。史实、文字与图片状态请以项目清单为准。</footer>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

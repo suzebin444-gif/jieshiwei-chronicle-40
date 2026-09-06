@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "corrections": [
+    {"id":"global-nameplates","scope":"global","issue":"人物名字使用箭头","resolution":"名牌靠近对应人物，不加箭头","status":"locked"},
+    {"id":"global-dialogue","scope":"global","issue":"对白离人物远或指向不清","resolution":"对白靠近人物，短箭头指向说话者","status":"locked"},
+    {"id":"ch02-p06-jieshiwei","chapter":2,"page":6,"issue":"旗帜、城墙牌匾的碣石卫乱码","resolution":"逐字核对碣石卫并重绘","status":"redraw_required"},
+    {"id":"ch02-children-dialogue","chapter":2,"issue":"孩童甲乙对白对换","resolution":"对白交换到正确人物，箭头重新指向","status":"redraw_required"},
+    {"id":"ch03-p04-jieshiwei","chapter":3,"page":4,"issue":"俞大猷对白中碣石卫缺字或乱码","resolution":"完整显示碣石卫","status":"redraw_required"},
+    {"id":"ch03-wuduan","chapter":3,"pages":[6,7],"issue":"人名误写吴段","resolution":"统一写伍端","status":"locked"},
+    {"id":"ch05-history","chapter":5,"issue":"张明珍叛变与苏成苏利功劳交代不足","resolution":"以经史料核对的旁白说明，并同步重绘后续页","status":"redraw_required"},
+    {"id":"ch06-p04-withdraw","chapter":6,"page":4,"issue":"撤防动作方向错误","resolution":"士兵从旧土城内部走向城外","status":"redraw_required"},
+    {"id":"ch21-p09-poem","chapter":21,"page":9,"issue":"缺少悼台诗诗句","resolution":"加入经史料核对的诗句正文","status":"redraw_required"},
+    {"id":"ch24-nameplates","chapter":24,"issue":"人物名牌带箭头","resolution":"移除箭头，名牌放人物旁边","status":"redraw_required"},
+    {"id":"ch39-five-lions","chapter":39,"issue":"五色狮造型偏离地方原型","resolution":"严格使用用户参考照片的五色灯彩狮造型","status":"locked"},
+    {"id":"ch40-p01-final","chapter":40,"page":1,"issue":"旧版需替换","resolution":"采用最终重绘版本","status":"resolved"}
+  ]
+}
